@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="fontawesome/css/all.min.css"> -->
+    <link rel="stylesheet" href="lineawesome/css/line-awesome.min.css">
+    <title>BITLAPS CRYPTO CURRENCY DASHBOARD</title>
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header>
+        <div class="left-nav">
+            <!-- nav left -->
+            <div class="header-icon active-header-icon">
+                <i class="la la-border-all la-2x text-grey"></i>
+            </div>
+            <div class="header-icon">
+                <i class="la la-shopping-cart la-2x text-grey"></i>
+            </div>
+            <div class="header-icon">
+                <i class="la la-comment-dots la-2x text-grey"></i>
+            </div>
+            <div class="header-icon">
+                <i class="la la-wallet la-2x text-grey"></i>
+            </div>
+            <div class="header-icon">
+                <i class="la la-sort-alpha-down la-2x text-grey"></i>
+            </div>
+        </div>
+
+        <!-- logo -->
+        <div class="logo">
+            <div class="">
+                <img src="svg/icon-49.svg" alt="">
+            </div>
+            <div class="logo-p">
+                <p>Bitlaps</p>
+            </div>
+            <!-- <i class="fa-solid fa-music"></i> -->
+        </div>
+
+        <!-- nav right -->
+        <div class="right-nav">
+            <div class="position-relative">
+                <a href="#" id="pp" class="link">Trending News</a>
+                <div class="blue-notification"></div>
+            </div>
+            <!-- <a href="#" id="pp" class="link">Trending News</a> -->
+            <a href="#" class="link">Social</a>
+            <div class="header-icon notification-bell-icon">
+                <i class="la la-bell la-2x text-grey"></i>
+                <div class="red-notification"></div>
+            </div>
+            <div class="header-icon">
+                <i class="la la-cog la-2x text-grey"></i>
+            </div>
+            <img src="img/profile-pic.png" alt="" class="profile-pic-icon">
+        </div>
+
+        <div class="hamburger-icon">
+            X
+        </div>
+    </header>
+    <!-- HEADR STOPS -->
+
+
+    <section>
+        <!-- ASIDE STARTS -->
+        <aside>
+            <div class="aside-1">
+                <!-- aside-1 -->
+                <div class="aside-profile-pic-container">
+                    <div class="profile-picture"></div>
+                    <div class="profile-pic-edit-pen-div">
+                        <i class="la la-pencil-alt la-lg text-blue"></i>
+                    </div>
+                </div>
+                <p class="text-grey text-fs-14px">Your Balance</p>
+                <p class="balance-text">$487,914.83</p>
+                <button class="top-up-balance-button">
+                    <i class="la la-plus-circle la-lg text-blue add-balance-icon"></i>
+                    Top Up Balance
+                    &nbsp;&nbsp;
+                    <i class="la la-angle-right text-grey"></i>
+                </button>
+                <div class="flex">
+                    <p class="text-fw-600">Your Assets</p>
+                    <button class="text-fs-14px text-blue bitlaps-asset-button">BITLAPS Asset</button>
+                </div>
+                <div class="market-cap-div">
+                    <p class="text-grey text-fs-14px">
+                        The global market cap is <span class="text-fw-600"> $2.19T</span>
+                    </p>
+                    <i class="la la-search la-lg text-grey"></i>
+                </div>
+                <div class="coin-listing-container">
+                    <div class="coin-tile shrink">
+                        <span class="flex">
+                            <img src="svg/BTC.svg" alt="BTC Logo">&nbsp;&nbsp;
+                            <p>Bitcoin</p>&nbsp;
+                            <p class="text-grey">BTC</p>
+                        </span>
+                        <span class="flex">
+                            <p class="text-green">1.50%</p>&nbsp;
+                            <i class="la la-chart-line la-lg text-green"></i>
+                        </span>
+                    </div>
+                    <div class="coin-tile expanded">
+                        <div class="coin-tile-row-1">
+                            <span class="flex">
+                                <img src="svg/XMR.svg" alt="BTC Logo">&nbsp;&nbsp;
+                                <p>Monero</p>&nbsp;
+                                <p class="text-grey">XMR</p>
+                            </span>
+                            <span class="flex">
+                                <p class="text-green">1.50%</p>&nbsp;
+                                <i class="la la-chart-line la-lg text-green"></i>
+                            </span>
+                        </div>
+                        <div class="coin-tile-row-2">
+                            <div class="tile-price">
+                                <p class="text-grey text-fs-14px">Price</p>
+                                <p class="text-fw-600">$3,872.83</p>
+                            </div>
+                            <div class="holding-value">
+                                <p class="text-grey text-fs-14px">Holding</p>
+                                <p class="text-fw-600">37,54 XMR</p>
+                            </div>
+                            <div class="chart-plot">
+                                <i class="la la-chart-bar la-lg text-green"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coin-tile shrink">
+                        <span class="flex">
+                            <img src="svg/XMY.svg" alt="BTC Logo">&nbsp;&nbsp;
+                            <p>Bitcoin</p>&nbsp;
+                            <p class="text-grey">XMY</p>
+                        </span>
+                        <span class="flex">
+                            <p class="text-red">1.50%</p>&nbsp;
+                            <i class="la la-chart-line la-lg text-red loss-chart-line"></i>
+                        </span>
+                    </div>
+                    <div class="coin-tile shrink">
+                        <span class="flex">
+                            <img src="svg/USDT.svg" alt="BTC Logo">&nbsp;&nbsp;
+                            <p>Tether USD</p>&nbsp;
+                            <p class="text-grey">USDT</p>
+                        </span>
+                        <span class="flex">
+                            <p class="text-green">12.22%</p>&nbsp;
+                            <i class="la la-chart-line la-lg text-green"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-2">
+                <!-- aside-2 -->
+            </div>
+        </aside>
+        <!-- ASIDE STOPS -->
+
+
+
+        <!-- A VERTICAL DIVIDER FOR ASIDE AND MAIN -->
+        <div class="vertical-divider"></div>
+
+
+
+        <!-- MAIN STARTS -->
+        <main>
+            <div class="main-row-1">
+                <div class="main-row-1-left">
+                    <!-- main-row-1-left -->
+                    <div class="statistics-heading">
+                        <p>Statistics</p>
+                        <div class="time-frame text-fw-500">
+                            <button class="time-frame-button">1m</button>
+                            <button class="time-frame-button active-time-frame">5m</button>
+                            <button class="time-frame-button">30m</button>
+                            <button class="time-frame-button">1h</button>
+                            <button class="time-frame-button">1d</button>
+                        </div>
+                        <div>
+                            <i class="la la-share-square la-lg text-blue"></i>
+                            &nbsp;&nbsp;&nbsp;
+                            <i class="la la-camera la-lg text-blue"></i>
+                        </div>
+                    </div>
+                    <div class="bar-price">
+                        <div class="coin-pair flex">
+                            <p class="text-fs-14px">BTCUSD &nbsp;</p>
+                            <i class="fa fa-angle-down text-grey"></i>
+                        </div>
+                        <p class="flex text-fs-14px text-black">O &nbsp;<span class="text-green">63273.58</span></p>
+                        <p class="flex text-fs-14px text-black">H &nbsp;<span class="text-green">63273.58</span></p>
+                        <p class="flex text-fs-14px text-black">L &nbsp;<span class="text-green">63273.58</span></p>
+                        <p class="flex text-fs-14px text-black">C &nbsp;<span class="text-green">63273.58</span></p>
+                        <p class="flex text-fs-14px text-green">(+6.72%)</p>
+                    </div>
+                    <div class="chart-body"></div>
+                    <div class="statistics-footer text-grey">
+                        <span class="flex text-fs-14px">
+                            <p>Bitcoin / TetherUS</p>&nbsp;&nbsp;
+                            <div class="grey-circle"></div>&nbsp;&nbsp;
+                            <p>1D</p>&nbsp;&nbsp;
+                            <div class="grey-circle"></div>&nbsp;&nbsp;
+                            <p>Binance</p>&nbsp;&nbsp;
+                            <div class="green-circle"></div>
+                        </span>
+                        <span class="flex">
+                            <p class="text-fs-14px"></p>
+                            <p class="text-fs-14px">07:54:06 (UTC)</p>&nbsp;&nbsp;
+                            <i class="la la-cog la-lg text-blue"></i>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="main-row-1-right">
+                    <!-- main-row-1-right -->
+                    <!-- <form action="" method="post"></form> -->
+                    <div class="transaction-action-tab">
+                        <!-- Either implemented using tab or radio button-->
+                        <button class="trade-tab-button active-transaction-tab">Buy</button>
+                        <button class="trade-tab-button">Sell</button>
+                        <button class="trade-tab-button">Send</button>
+                        <button class="trade-tab-button">Exchange</button>
+                    </div>
+                    <div class="to-coin light-greyed-bordered-box"> <!-- Owned coin-->
+                        <span>
+                            <!-- coin icon [BTC Logo] -->
+                            <img src="svg/BTC.svg" alt="BTC Icon"> &nbsp; &nbsp;
+                            <!-- coin name [Bitcoin.] -->
+                            <p class="text-black text-fs-14px text-fw-600">Bitcoin</p> &nbsp; &nbsp;
+                            <!-- coin code [BTC.....] -->
+                            <p class="text-grey text-fs-14px">BTC</p>
+                        </span>
+                        <!-- dropdown icon        -->
+                        <i class="la la-angle-down text-grey"></i>
+                    </div>
+                    <div class="from-coin light-greyed-bordered-box">
+                        <!-- coin icon        -->
+                        <img src="svg/ZAR.svg" alt="BTC Icon">
+                        <!-- coin code        -->
+                        <p class="text-black text-fs-14px text-fw-600">ZAR</p>
+                        <!-- vertical-divider -->
+                        <div class="vertical-divider-2"> &nbsp; </div>
+                        <!-- .from-coin value -->
+                        <p class="text-black text-fs-14px text-fw-600">$178,000</p>
+                        <!-- .to-coin value   -->
+                        <p class="text-grey text-fs-14px">3,777 BTC</p>
+                    </div>
+                    <button class="proceede-button" type="submit">Proceede to Wallet</button>
+            <!-- </form> -->
+                <p class="text-grey text-fs-14px">The final amount could change depending on the market conditions</p>
+                </div>
+            </div>
+            <div class="main-row-2">
+                <!-- main-row-2 -->
+                <div class="table-header">
+                    <p>Transaction History</p>
+                    <span class="filter-options-panel">
+                        <p class="text-fs-14px text-grey text-fw-6oo">Past 30 days</p>&nbsp;
+                        <i class="la la-angle-down text-fs-14px text-grey"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p class="text-fs-14px text-grey text-fw-6oo">Type</p>&nbsp;
+                        <i class="la la-angle-down text-fs-14px text-grey"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p class="text-fs-14px text-grey text-fw-6oo">Asset</p>&nbsp;
+                        <i class="la la-angle-down text-fs-14px text-grey"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p class="text-fs-14px text-grey text-fw-6oo">Status</p>&nbsp;
+                        <i class="la la-angle-down text-fs-14px text-grey drop-down" onclick="dropdownTransform()"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span>
+                </div>
+
+                <div class="table-body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><div class="square-select-box"></div></td>
+                                <th><p>Type</p></th>
+                                <th><p>Date</p></th>
+                                <th><p>Asset</p></th>
+                                <th><p>Amount</p></th>
+                                <th><p>Address</p></th>
+                                <th><p>Status</p></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><div class="square-select-box"></div></td>
+                                <td>
+                                    <div class="flex">
+                                        <div class="circular-light-blue-bg">
+                                            <i class="la la-download la-lg text-grey text-fs-14px"></i>
+                                        </div> &nbsp;&nbsp;&nbsp;
+                                        <p class="text-fw-600">Buy</p>
+                                    </div>
+                                </td>
+                                <td><p>2021-18-12</p></td>
+                                <td><p>ETH</p></td>
+                                <td><p>12 ETH</p></td>
+                                <td><div class="flex align-center"><p>0xd0og6pl096gy7078...086 </p> &nbsp;&nbsp;&nbsp; <i class="la la-link  la-lg text-blue text-fs-14px"></i></div></td>
+                                <td><div class="flex align-center"><div class="pending-circle"></div> &nbsp;&nbsp;&nbsp; <p>Pending</p></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="square-select-box"></div></td>
+                                <td>
+                                    <div class="flex">
+                                        <div class="circular-light-blue-bg">
+                                            <i class="la la-arrow-up la-lg text-grey text-fs-14px"></i>
+                                        </div> &nbsp;&nbsp;&nbsp;
+                                        <p class="text-fw-600">Sell</p>
+                                    </div>
+                                </td>
+                                <td><p>2021-18-12</p></td>
+                                <td><p>ETH</p></td>
+                                <td><p>12 ETH</p></td>
+                                <td><div class="flex align-center"><p>0xd0og6pl096gy7078...086 </p> &nbsp;&nbsp;&nbsp; <i class="la la-link  la-lg text-blue text-fs-14px"></i></div></td>
+                                <td><div class="flex align-center"><div class="failed-circle"></div> &nbsp;&nbsp;&nbsp; <p>Failed</p></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="square-select-box"></div></td>
+                                <td>
+                                    <div class="flex">
+                                        <div class="circular-light-blue-bg">
+                                            <i class="la la-exchange-alt la-lg text-grey text-fs-14px"></i>
+                                        </div> &nbsp;&nbsp;&nbsp;
+                                        <p class="text-fw-600">Exchange</p>
+                                    </div>
+                                </td>
+                                <td><p>2021-18-12</p></td>
+                                <td><p>ETH</p></td>
+                                <td><p>12 ETH</p></td>
+                                <td><div class="flex align-center"><p>0xd0og6pl096gy7078...086 </p> &nbsp;&nbsp;&nbsp; <i class="la la-link  la-lg text-blue text-fs-14px"></i></div></td>
+                                <td><div class="flex align-center"><div class="completed-circle"></div> &nbsp;&nbsp;&nbsp; <p>Completed</p></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="square-select-box"></div></td>
+                                <td>
+                                    <div class="flex">
+                                        <div class="circular-light-blue-bg">
+                                            <i class="la la-download la-lg text-grey text-fs-14px"></i>
+                                        </div> &nbsp;&nbsp;&nbsp;
+                                        <p class="text-fw-600">Buy</p>
+                                    </div>
+                                </td>
+                                <td><p>2021-18-12</p></td>
+                                <td><p>ETH</p></td>
+                                <td><p>12 ETH</p></td>
+                                <td><div class="flex align-center"><p>0xd0og6pl096gy7078...086 </p> &nbsp;&nbsp;&nbsp; <i class="la la-link  la-lg text-blue text-fs-14px"></i></div></td>
+                                <td><div class="flex align-center"><div class="pending-circle"></div> &nbsp;&nbsp;&nbsp; <p>Pending</p></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="square-select-box"></div></td>
+                                <td>
+                                    <div class="flex">
+                                        <div class="circular-light-blue-bg">
+                                            <i class="la la-download la-lg text-grey text-fs-14px"></i>
+                                        </div> &nbsp;&nbsp;&nbsp;
+                                        <p class="text-fw-600">Buy</p>
+                                    </div>
+                                </td>
+                                <td><p>2021-18-12</p></td>
+                                <td><p>ETH</p></td>
+                                <td><p>12 ETH</p></td>
+                                <td><div class="flex align-center"><p>0xd0og6pl096gy7078...086 </p> &nbsp;&nbsp;&nbsp; <i class="la la-link  la-lg text-blue text-fs-14px"></i></div></td>
+                                <td><div class="flex align-center"><div class="pending-circle"></div> &nbsp;&nbsp;&nbsp; <p>Pending</p></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="square-select-box"></div></td>
+                                <td>
+                                    <div class="flex">
+                                        <div class="circular-light-blue-bg">
+                                            <i class="la la-download la-lg text-grey text-fs-14px"></i>
+                                        </div> &nbsp;&nbsp;&nbsp;
+                                        <p class="text-fw-600">Buy</p>
+                                    </div>
+                                </td>
+                                <td><p>2021-18-12</p></td>
+                                <td><p>ETH</p></td>
+                                <td><p>12 ETH</p></td>
+                                <td><div class="flex align-center"><p>0xd0og6pl096gy7078...086 </p> &nbsp;&nbsp;&nbsp; <i class="la la-link  la-lg text-blue text-fs-14px"></i></div></td>
+                                <td><div class="flex align-center"><div class="pending-circle"></div> &nbsp;&nbsp;&nbsp; <p>Pending</p></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="square-select-box"></div></td>
+                                <td>
+                                    <div class="flex">
+                                        <div class="circular-light-blue-bg">
+                                            <i class="la la-download la-lg text-grey text-fs-14px"></i>
+                                        </div> &nbsp;&nbsp;&nbsp;
+                                        <p class="text-fw-600">Buy</p>
+                                    </div>
+                                </td>
+                                <td><p>2021-18-12</p></td>
+                                <td><p>ETH</p></td>
+                                <td><p>12 ETH</p></td>
+                                <td><div class="flex align-center"><p>0xd0og6pl096gy7078...086 </p> &nbsp;&nbsp;&nbsp; <i class="la la-link  la-lg text-blue text-fs-14px"></i></div></td>
+                                <td><div class="flex align-center"><div class="pending-circle"></div> &nbsp;&nbsp;&nbsp; <p>Pending</p></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="square-select-box"></div></td>
+                                <td>
+                                    <div class="flex">
+                                        <div class="circular-light-blue-bg">
+                                            <i class="la la-download la-lg text-grey text-fs-14px"></i>
+                                        </div> &nbsp;&nbsp;&nbsp;
+                                        <p class="text-fw-600">Buy</p>
+                                    </div>
+                                </td>
+                                <td><p>2021-18-12</p></td>
+                                <td><p>ETH</p></td>
+                                <td><p>12 ETH</p></td>
+                                <td><div class="flex align-center"><p>0xd0og6pl096gy7078...086 </p> &nbsp;&nbsp;&nbsp; <i class="la la-link  la-lg text-blue text-fs-14px"></i></div></td>
+                                <td><div class="flex align-center"><div class="pending-circle"></div> &nbsp;&nbsp;&nbsp; <p>Pending</p></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="square-select-box"></div></td>
+                                <td>
+                                    <div class="flex">
+                                        <div class="circular-light-blue-bg">
+                                            <i class="la la-download la-lg text-grey text-fs-14px"></i>
+                                        </div> &nbsp;&nbsp;&nbsp;
+                                        <p class="text-fw-600">Buy</p>
+                                    </div>
+                                </td>
+                                <td><p>2021-18-12</p></td>
+                                <td><p>ETH</p></td>
+                                <td><p>12 ETH</p></td>
+                                <td><div class="flex align-center"><p>0xd0og6pl096gy7078...086 </p> &nbsp;&nbsp;&nbsp; <i class="la la-link  la-lg text-blue text-fs-14px"></i></div></td>
+                                <td><div class="flex align-center"><div class="pending-circle"></div> &nbsp;&nbsp;&nbsp; <p>Pending</p></div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <!-- MAIN STOPS -->
+    </section>
+
+    <script src="script.js"></script>
+    <script src="script/coin.js"></script>
+    <script src="script/animation.js"></script>
+    
+</body>
+</html>
